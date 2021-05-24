@@ -27,6 +27,8 @@ async function run() {
     }
 
     const octokit = getOctokit(token);
+    console.info('octokit rest', octokit.rest);
+    console.info('octokit issue', octokit.rest.issues);
     const result = await octokit.rest.issues.addAssignees({
       owner: context.repo.owner,
       repo: context.repo.repo,
