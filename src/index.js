@@ -2,6 +2,7 @@ import * as core from '@actions/core';
 import { context, getOctokit } from '@actions/github';
 
 async function run() {
+  console.log('hello');
   try {
     const token = core.getInput('repo-token', { required: true });
     if (context.payload.pull_request === undefined) {
