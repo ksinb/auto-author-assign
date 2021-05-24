@@ -4,7 +4,7 @@ author: 'toshimaru'
 inputs:
   repo-token:
     description: 'A token for the repository'
-    default: '${{ github.token }}'
+    default: '${{ secrets.GITHUB_TOKEN }}'
 runs:
   using: 'node12'
   main: 'dist/index.js'
