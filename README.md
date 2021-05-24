@@ -1,6 +1,6 @@
 [![Build](https://github.com/toshimaru/auto-author-assign/actions/workflows/build.yml/badge.svg)](https://github.com/toshimaru/auto-author-assign/actions/workflows/build.yml)
 
-# auto-author-assign
+# auto-author-assign2
 
 GitHub Actions: Assign pull request author automatically.
 
@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: toshimaru/auto-author-assign
         with:
-          repo-token: "${{ secrets.YOUR_TOKEN }}"
+          repo-token: '${{ secrets.YOUR_TOKEN }}'
 ```
 
 If not specified, `GITHUB_TOKEN` will be used by default.
