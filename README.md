@@ -1,6 +1,6 @@
 [![Build](https://github.com/toshimaru/auto-author-assign/actions/workflows/build.yml/badge.svg)](https://github.com/toshimaru/auto-author-assign/actions/workflows/build.yml)
 
-# your auto-author-assign
+# up2 auto-author-assign
 
 GitHub Actions: Assign pull request author automatically.
 
